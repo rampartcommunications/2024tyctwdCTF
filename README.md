@@ -77,8 +77,24 @@
     - Is this longer or shorter than from 2.1?  What does this tell you?
 
 
+## 3 - DNS
 
-## 3 - TCP
+1. What is the IP address for the DNS server we're querying?
+
+
+2. What protocols are being used in packet 1?
+
+
+3. What port is the DNS server on?
+
+
+4. What IP address(es) can you find google.com at?
+
+
+5. What IP address(es) can you find snapchat.com at?
+
+
+## 4 - TCP
 
 1. What protocol are being used in packet 5?
 
@@ -90,9 +106,9 @@
 
 
 
-## 4 - HTTP
+## 5 - HTTP
 
-### 4.1 - Download
+### 5.1 - Download
 
 1. What is the IP address for the web (HTTP) client and server?  Do you notice anything odd about them?
 
@@ -106,7 +122,7 @@
 4. What is the name of the person in the picture?
 
 
-### 4.2 - Upload
+### 5.2 - Upload
 
 
 1. What is the IP address for the web (HTTP) client and server? 
