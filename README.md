@@ -4,6 +4,26 @@
 
 # Chromebook Setup
 
+1. Install the penguin (Linux) environment on your Chromebook
+    1. Press the search (circle) key
+    2. Search for the ```Terminal``` app
+    3. Open ```Terminal```
+    4. If not already setup click on the ```Set up``` button
+    5. In the ```Settings``` menu that opens click ```Turn on```
+    6. Pick all of the defaults in the wizard (click next until it finishes)
+
+2. Open the Linux terminal environment
+    1. Open the ```Terminal``` app
+    2. Click on ```penguin```
+
+3. Install wireshark
+    ```
+    sudo apt install -y wireshark
+    ```
+4. Download pcap files
+    ```
+    git clone https://github.com/rampartcommunications/2024tyctwdCTF.git
+    ```
 
 # Questions
 
@@ -60,10 +80,42 @@
 
 ## 3 - TCP
 
+1. What protocol are being used in packet 5?
+
+
+2. What port number is the packet coming from in packet 5?
+
+
+3. What date and time was packet 5 sent?
+
+
 
 ## 4 - HTTP
 
-
 ### 4.1 - Download
 
+1. What is the IP address for the web (HTTP) client and server?  Do you notice anything odd about them?
+
+
+2. What port number is the web (HTTP) server using?
+
+
+3. What is the name of the file being downloaded?
+
+
+4. What is the name of the person in the picture?
+
+
 ### 4.2 - Upload
+
+
+1. What is the IP address for the web (HTTP) client and server? 
+
+
+2. What port number is the web (HTTP) server using?  Is it the same or differet as the one from 4.1?
+
+
+3. What is the name of the file being uploaded?
+
+
+4. What is the secret message in the uploaded file?
