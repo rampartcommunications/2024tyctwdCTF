@@ -18,7 +18,7 @@
 
 3. Install wireshark
     ```
-    sudo apt install -y wireshark
+    sudo apt install -y wireshark git
     ```
 4. Download pcap files
     ```
@@ -30,16 +30,16 @@
 
 ## 1 - ARP
 
-1. What Ethernet (MAC) addresses are exchanging packets?
+1. What Ethernet (MAC) addresses are exchanging packets? (```1 point```)
 
 
-2. What IP address is requesting MAC addresses?
+2. What IP address is requesting MAC addresses? (```1 point```)
 
 
-3. Did 10.10.8.12 answer, if so what Ethernet (MAC) address is it using?
+3. Did 10.10.8.12 answer, if so what Ethernet (MAC) address is it using?  (```1 point```)
 
 
-4. Did 10.10.8.61 answer, if so what Ethernet (MAC) address is it using?
+4. Did 10.10.8.61 answer, if so what Ethernet (MAC) address is it using?  (```1 point```)
 
 
 ## 2 - ICMP
@@ -47,62 +47,63 @@
 
 ### 2.1
 
-1. What IP address is sending the PING requests?
+1. What IP address is sending the PING requests?  (```1 point```)
 
 
-2. What IP address is replying?
+2. What IP address is replying?  (```1 point```)
 
 
-3. What is the Ethernet (MAC) address for 10.10.8.1?
+3. What is the Ethernet (MAC) address for 10.10.8.1?  (```1 point```)
 
 
-4. How long does it take for the reply to get back to the sender?
+4. How long does it take for the reply to get back to the sender?  (```1 point```)
 
 
 ### 2.2
 
-1. What IP address is sending the PING requests?
+1. What IP address is replying to the ping this time?  (```1 point```)
 
 
-2. What IP address is replying?
+2. What is the Ethernet (MAC) address for the host that's replying?  (```1 point```)
+
+    - Is this MAC the same or different than the MAC from 2.1 question 3?
+    - What does this tell you?  (```5 points```)
 
 
-3. What is the Ethernet (MAC) address for the host that's replying?
+3. How long does it take for the reply to get back to the sender?  (```1 point```)
 
-    - Is this MAC the same or different than the MAC from 2.1 question 3?  What does this tell you?
-
-
-4. How long does it take for the reply to get back to the sender?
-
-    - Is this longer or shorter than from 2.1?  What does this tell you?
+    - Is this longer or shorter than from 2.1?
+  
+   
+    - What does this tell you?  (```3 points```)
 
 
 ## 3 - DNS
 
-1. What is the IP address for the DNS server we're querying?
+1. What is the IP address for the DNS server we're querying?  (```1 point```)
 
 
-2. What protocols are being used in packet 1?
+2. What protocols are being used in packet 1?  (```3 points```)
 
 
-3. What port is the DNS server on?
+3. What port is the DNS server on?  (```2 points```)
 
 
-4. What IP address(es) can you find google.com at?
+4. What IP address(es) can you find google.com at?  (```3 points```)
 
 
-5. What IP address(es) can you find snapchat.com at?
+5. What IP address(es) can you find snapchat.com at?  (```2 points```)
 
 
 ## 4 - TCP
 
-1. What protocol are being used in packet 5?
+1. What protocol are being used in packet 5?  (```3 points```)
 
 
-2. What port number is the packet coming from in packet 5?
+2. What port number is the packet coming from in packet 5?  (```2 points```)
 
 
-3. What date and time was packet 5 sent?
+3. What date and time was packet 5 sent?  (```3 point```)
 
 
 
@@ -110,28 +111,31 @@
 
 ### 5.1 - Download
 
-1. What is the IP address for the web (HTTP) client and server?  Do you notice anything odd about them?
+1. What is the IP address for the web (HTTP) client and server?  Do you notice anything odd about them?   (```2 points```)
 
 
-2. What port number is the web (HTTP) server using?
+2. What port number is the web (HTTP) server using?  (```2 points```)
 
 
-3. What is the name of the file being downloaded?
+3. What is the name of the file being downloaded?  (```5 points```)
 
 
-4. What is the name of the person in the picture?
+4. What is the name of the person in the picture?  (```10 points```)
 
 
 ### 5.2 - Upload
 
 
-1. What is the IP address for the web (HTTP) client and server? 
+1. What is the IP address for the web (HTTP) client and server?  (```2 points```)
 
 
-2. What port number is the web (HTTP) server using?  Is it the same or differet as the one from 4.1?
+2. What port number is the web (HTTP) server using?  (```1 point```)
 
 
-3. What is the name of the file being uploaded?
+    - Is it the same or differet as the one from 4.1?  (```1 point```)
 
 
-4. What is the secret message in the uploaded file?
+4. What is the name of the file being uploaded?  (```5 points```)
+
+
+5. What is the secret message in the uploaded file?  (```5 points```)
