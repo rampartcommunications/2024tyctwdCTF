@@ -111,16 +111,18 @@
 
 ### 5.1 - Download
 
-1. What is the IP address for the web (HTTP) client and server?  Do you notice anything odd about them?   (```2 points```)
+1. What is the IP address for the web (HTTP) server? (```1 point```)
 
 
-2. What port number is the web (HTTP) server using?  (```2 points```)
+2. What port number is the web (HTTP) server using?  (```1 point```)
 
 
 3. What is the name of the file being downloaded?  (```5 points```)
 
 
-4. What is the name of the person in the picture?  (```10 points```)
+4. What is the name of the character in the picture?  (```10 points```)
+
+    **Bonus Point**: The first person to yell out where this character lives gets ```5 points```.
 
 
 ### 5.2 - Upload
